@@ -1,6 +1,4 @@
-var TruffleContract = artifacts.require("../contracts/TruffleContract.sol");
-
-const TruffleContract = artifacts.require("TruffleContract");
+var TruffleContract = artifacts.require("./TruffleContract.sol");
 
 contract("TruffleContract", function () {
   it("should assert true", async function (done) {
